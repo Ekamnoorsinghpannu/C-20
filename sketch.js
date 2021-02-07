@@ -1,3 +1,12 @@
+//Ekamnoor singh pannu
+//Ekamnoor singh pannu
+//Ekamnoor singh pannu
+//Ekamnoor singh pannu
+//Ekamnoor singh pannu
+//Ekamnoor singh pannu
+//Ekamnoor singh pannu 
+
+
 var canvas,bg;
 var together;
 var tom, tomImg1,tomImg2;
@@ -23,14 +32,14 @@ function setup(){
 
     jerry = createSprite(200, 600);
     jerry.addAnimation("jerryStanding", jerryImg1);
-    jerry.scale = 0.15;
+    jerry.scale = 0.15;     
 
 }
 
-function draw() {
+function draw() {                                          
 
     background(bg);
-
+										   		
     if(tom.x - jerry.x < (tom.width - jerry.width)/2)
     { 
         tom.velocityX=0;
